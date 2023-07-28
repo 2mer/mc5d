@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "mc5d",
+  "version": "${version}",
+  "name": "mc5d",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/user/mc5d"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/mc5d/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.kw7.mc5d.client.Mc5dClient"
+    ],
+    "main": [
+      "net.kw7.mc5d.Mc5d"
+    ]
+  },
+  "mixins": [
+    "mc5d.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

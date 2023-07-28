@@ -1,0 +1,17 @@
+{
+  "targets": [
+    "swap"
+  ],
+  "passes": [
+    {
+      "name": "mc5d:test",
+      "intarget": "minecraft:main",
+      "outtarget": "swap"
+    },
+    {
+      "name": "mc5d:test",
+      "intarget": "swap",
+      "outtarget": "minecraft:main"
+    }
+  ]
+}
